@@ -16,9 +16,9 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-    name='Network Security',
+    name='NetworkSecurity',
     version='0.0.1',
-    author='Shahabuddin',
+    author='Shahabuddin N',
     author_email='nads.shaha@gmail.com',
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
